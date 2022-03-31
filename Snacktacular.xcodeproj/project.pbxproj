@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		009B51C027F50EB50093DDA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 009B51BF27F50EB50093DDA3 /* GoogleService-Info.plist */; };
+		00AA92C627F605E4000287B0 /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA92C527F605E4000287B0 /* SpotListViewController.swift */; };
+		00AA92C827F60D00000287B0 /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA92C727F60D00000287B0 /* SpotTableViewCell.swift */; };
+		00AA92CA27F61116000287B0 /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA92C927F61116000287B0 /* SpotDetailViewController.swift */; };
 		00D5486627F50A4E001FE75F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D5486527F50A4E001FE75F /* AppDelegate.swift */; };
 		00D5486827F50A4E001FE75F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D5486727F50A4E001FE75F /* SceneDelegate.swift */; };
 		00D5486A27F50A4E001FE75F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D5486927F50A4E001FE75F /* LoginViewController.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		009B51BF27F50EB50093DDA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00AA92C527F605E4000287B0 /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
+		00AA92C727F60D00000287B0 /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
+		00AA92C927F61116000287B0 /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
 		00D5486227F50A4E001FE75F /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D5486527F50A4E001FE75F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00D5486727F50A4E001FE75F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 				00D5486527F50A4E001FE75F /* AppDelegate.swift */,
 				00D5486727F50A4E001FE75F /* SceneDelegate.swift */,
 				00D5486927F50A4E001FE75F /* LoginViewController.swift */,
+				00AA92C527F605E4000287B0 /* SpotListViewController.swift */,
+				00AA92C727F60D00000287B0 /* SpotTableViewCell.swift */,
+				00AA92C927F61116000287B0 /* SpotDetailViewController.swift */,
 				00D5486B27F50A4E001FE75F /* Main.storyboard */,
 				00D5486E27F50A4F001FE75F /* Assets.xcassets */,
 				00D5487027F50A4F001FE75F /* LaunchScreen.storyboard */,
@@ -228,8 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AA92C627F605E4000287B0 /* SpotListViewController.swift in Sources */,
 				00D5486A27F50A4E001FE75F /* LoginViewController.swift in Sources */,
 				00D5486627F50A4E001FE75F /* AppDelegate.swift in Sources */,
+				00AA92CA27F61116000287B0 /* SpotDetailViewController.swift in Sources */,
+				00AA92C827F60D00000287B0 /* SpotTableViewCell.swift in Sources */,
 				00D5486827F50A4E001FE75F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
