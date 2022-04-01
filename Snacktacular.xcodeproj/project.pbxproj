@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		006C25DC27F6A218002C51E5 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006C25DB27F6A218002C51E5 /* Spots.swift */; };
+		006C25DE27F6A6F6002C51E5 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006C25DD27F6A6F6002C51E5 /* APIKeys.swift */; };
 		009B51C027F50EB50093DDA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 009B51BF27F50EB50093DDA3 /* GoogleService-Info.plist */; };
 		00AA92C627F605E4000287B0 /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA92C527F605E4000287B0 /* SpotListViewController.swift */; };
 		00AA92C827F60D00000287B0 /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AA92C727F60D00000287B0 /* SpotTableViewCell.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		006C25DB27F6A218002C51E5 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		006C25DD27F6A6F6002C51E5 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		009B51BF27F50EB50093DDA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00AA92C527F605E4000287B0 /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
 		00AA92C727F60D00000287B0 /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				00AA92C727F60D00000287B0 /* SpotTableViewCell.swift */,
 				00AA92C927F61116000287B0 /* SpotDetailViewController.swift */,
 				00B1E9B827F68F0400458BF8 /* UIViewController+Alert.swift */,
+				006C25DD27F6A6F6002C51E5 /* APIKeys.swift */,
 				00D5486B27F50A4E001FE75F /* Main.storyboard */,
 				00D5486E27F50A4F001FE75F /* Assets.xcassets */,
 				00D5487027F50A4F001FE75F /* LaunchScreen.storyboard */,
@@ -252,6 +255,7 @@
 				00AA92CA27F61116000287B0 /* SpotDetailViewController.swift in Sources */,
 				006C25DC27F6A218002C51E5 /* Spots.swift in Sources */,
 				00AA92C827F60D00000287B0 /* SpotTableViewCell.swift in Sources */,
+				006C25DE27F6A6F6002C51E5 /* APIKeys.swift in Sources */,
 				00B1E9B727F6880C00458BF8 /* Spot.swift in Sources */,
 				00D5486827F50A4E001FE75F /* SceneDelegate.swift in Sources */,
 				00B1E9B927F68F0400458BF8 /* UIViewController+Alert.swift in Sources */,
